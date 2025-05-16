@@ -9,4 +9,12 @@ export class AppService {
   getHello2() : {} {
     return {title: "Helo App", message : "Hi! How are you?"}
   }
+
+  getAboutUs() : {} {
+    return {title: "Helo App", message : "Hi! How are you?"}
+  }
+
+  getHome() : {} {
+    return {title: "Helo App", message : "Hi! How are you?"}
+  }
 }

@@ -6,20 +6,20 @@ import { StudentRegistrationModule } from './student-registration/student-regist
 import { UsersModule } from './users/users.module';
 
 @Module({
-  imports: [
-    TypeOrmModule.forRoot({
-      type: 'postgres',
-      host: 'localhost',
-      port: 5432,
-      username: 'admin',
-      password: 'admin123',
-      database: 'nest_db',
-      autoLoadEntities: true,
-      synchronize: true, // set to false in production!
-    }),
-    StudentRegistrationModule,
-    UsersModule,
-  ],
+  // imports: [
+  //   TypeOrmModule.forRoot({
+  //     type: 'postgres',
+  //     host: 'localhost',
+  //     port: 5432,
+  //     username: 'admin',
+  //     password: 'admin123',
+  //     database: 'nest_db',
+  //     autoLoadEntities: true,
+  //     synchronize: true, // set to false in production!
+  //   }),
+  //   StudentRegistrationModule,
+  //   UsersModule,
+  // ],
   controllers: [AppController],
   providers: [AppService],
 })

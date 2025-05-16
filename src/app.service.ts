@@ -14,7 +14,7 @@ export class AppService {
     return {title: "Helo App", message : "Hi! How are you?"}
   }
 
-  getHome() : {} {
-    return {title: "Helo App", message : "Hi! How are you?"}
-  }
+  // getHome() : {} {
+  //   return {title: "Helo App", message : "Hi! How are you?"}
+  // }
 }
